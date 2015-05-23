@@ -14,6 +14,8 @@
 		F0D4554A1B11469400DE9598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D455491B11469400DE9598 /* Images.xcassets */; };
 		F0D4554D1B11469400DE9598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D4554B1B11469400DE9598 /* LaunchScreen.xib */; };
 		F0D455591B11469400DE9598 /* Autobar_v02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D455581B11469400DE9598 /* Autobar_v02Tests.swift */; };
+		F0D455631B11470700DE9598 /* autoBG-1440.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0D455621B11470700DE9598 /* autoBG-1440.jpg */; };
+		F0D455651B11471000DE9598 /* dangerousman.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D455641B11471000DE9598 /* dangerousman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F0D455521B11469400DE9598 /* Autobar v02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autobar v02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D455571B11469400DE9598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D455581B11469400DE9598 /* Autobar_v02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autobar_v02Tests.swift; sourceTree = "<group>"; };
+		F0D455621B11470700DE9598 /* autoBG-1440.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "autoBG-1440.jpg"; sourceTree = "<group>"; };
+		F0D455641B11471000DE9598 /* dangerousman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dangerousman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				F0D455441B11469400DE9598 /* ViewController.swift */,
 				F0D455461B11469400DE9598 /* Main.storyboard */,
 				F0D455491B11469400DE9598 /* Images.xcassets */,
+				F0D455641B11471000DE9598 /* dangerousman.png */,
+				F0D455621B11470700DE9598 /* autoBG-1440.jpg */,
 				F0D4554B1B11469400DE9598 /* LaunchScreen.xib */,
 				F0D455411B11469400DE9598 /* Autobar_v02.xcdatamodeld */,
 				F0D4553D1B11469400DE9598 /* Supporting Files */,
@@ -197,6 +203,8 @@
 			files = (
 				F0D455481B11469400DE9598 /* Main.storyboard in Resources */,
 				F0D4554D1B11469400DE9598 /* LaunchScreen.xib in Resources */,
+				F0D455651B11471000DE9598 /* dangerousman.png in Resources */,
+				F0D455631B11470700DE9598 /* autoBG-1440.jpg in Resources */,
 				F0D4554A1B11469400DE9598 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
