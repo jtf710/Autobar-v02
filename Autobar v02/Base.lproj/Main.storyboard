@@ -64,12 +64,25 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="myLabel" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-H4-ZEZ">
-                                <rect key="frame" x="16" y="167" width="125" height="149"/>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="myLabel" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-H4-ZEZ">
+                                <rect key="frame" x="26" y="131" width="125" height="149"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="2bC-l1-kYh"/>
+                                    <constraint firstAttribute="height" constant="149" id="6Qx-PA-ff8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <inset key="titleEdgeInsets" minX="-120" minY="120" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Item Count 0" image="dangerousman.png"/>
+                                <connections>
+                                    <action selector="button1Press:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="htb-Nq-sea"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gad-Ni-I7v">
+                                <rect key="frame" x="31" y="281" width="80" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -84,13 +97,19 @@
                             <constraint firstItem="1ja-aG-HWl" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="16" id="Taw-CD-PJw"/>
                             <constraint firstItem="1ja-aG-HWl" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="YAV-GB-udR"/>
                             <constraint firstItem="ocO-vz-ole" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="dca-IH-dCc"/>
+                            <constraint firstItem="CzP-H4-ZEZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="drS-VE-kTE"/>
                             <constraint firstItem="RVW-pq-Jg7" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="jP0-UM-owp"/>
                             <constraint firstItem="ocO-vz-ole" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="oX3-Fr-zSg"/>
                             <constraint firstItem="1ja-aG-HWl" firstAttribute="leading" secondItem="7wB-G0-mHJ" secondAttribute="trailing" constant="1" id="p5K-cG-k2s"/>
                             <constraint firstItem="7wB-G0-mHJ" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="pLW-Ve-Df4"/>
+                            <constraint firstItem="CzP-H4-ZEZ" firstAttribute="top" secondItem="11q-je-ZcS" secondAttribute="bottom" constant="20" id="pm9-yq-qbu"/>
                             <constraint firstItem="RVW-pq-Jg7" firstAttribute="width" secondItem="1ja-aG-HWl" secondAttribute="width" id="sGM-Lk-kmq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="CzP-H4-ZEZ" id="2V8-lS-j1B"/>
+                        <outlet property="label1" destination="gad-Ni-I7v" id="mX3-ze-XrY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
