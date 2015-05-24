@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label1: UILabel!
 
 
-    
+    var label1Value = 0
     
     
     
@@ -34,32 +34,15 @@ class ViewController: UIViewController {
         
         // Future: Could use   .toInt() to convert string to number for setting Drink.Quantity Value with each button press. Or could set drink.Quatity then int to string set.
         
-        if label1.text == "0" {
-            label1.text = "1" }
-        else if label1.text == "1" {
-            label1.text = "2"
-        }
-        else if label1.text == "2" {
-            label1.text = "3"
-        }
+    label1Value = label1Value + 1
+        label1.text = "\(label1Value)"
 
-        else if label1.text == "3" {
-            label1.text = "4"
-        }
 
-        else if label1.text == "4" {
-            label1.text = "5"
-        }
-
-        else if label1.text == "5" {
-            label1.text = "6"
-        }
-        else if label1.text == "6" {
-            label1.text = "0"
-        }
 
     }
     
+
+
 
     
     
