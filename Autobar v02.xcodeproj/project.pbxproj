@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0AE1A8D1B11832500F4AFF0 /* ViewController_copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AE1A8C1B11832500F4AFF0 /* ViewController_copy.swift */; };
 		F0D455401B11469400DE9598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4553F1B11469400DE9598 /* AppDelegate.swift */; };
 		F0D455431B11469400DE9598 /* Autobar_v02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0D455411B11469400DE9598 /* Autobar_v02.xcdatamodeld */; };
 		F0D455451B11469400DE9598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D455441B11469400DE9598 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0AE1A8C1B11832500F4AFF0 /* ViewController_copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_copy.swift; sourceTree = "<group>"; };
 		F0D4553A1B11469400DE9598 /* Autobar v02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autobar v02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D4553E1B11469400DE9598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D4553F1B11469400DE9598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				F0D4553F1B11469400DE9598 /* AppDelegate.swift */,
 				F0D455441B11469400DE9598 /* ViewController.swift */,
+				F0AE1A8C1B11832500F4AFF0 /* ViewController_copy.swift */,
 				F0D455461B11469400DE9598 /* Main.storyboard */,
 				F0D455491B11469400DE9598 /* Images.xcassets */,
 				F0D455641B11471000DE9598 /* dangerousman.png */,
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0D455451B11469400DE9598 /* ViewController.swift in Sources */,
+				F0AE1A8D1B11832500F4AFF0 /* ViewController_copy.swift in Sources */,
 				F0D455401B11469400DE9598 /* AppDelegate.swift in Sources */,
 				F0D455431B11469400DE9598 /* Autobar_v02.xcdatamodeld in Sources */,
 			);
@@ -417,6 +421,7 @@
 				F0D4555E1B11469400DE9598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0D4555F1B11469400DE9598 /* Build configuration list for PBXNativeTarget "Autobar v02Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				F0D455611B11469400DE9598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
