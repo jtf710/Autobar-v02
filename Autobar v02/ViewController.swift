@@ -28,11 +28,9 @@ class ViewController: UIViewController {
         
         // -- DM Button Press --
     
-        // Function: Changes Label1 from 0-6 and back again
+        // Function: Changes Label1 from 0-65,000
         
-        // Alternatively: Could make Label1 invisible and set Button's UILabel (Item Count 0) to Label1s value
-        
-        // Future: Could use   .toInt() to convert string to number for setting Drink.Quantity Value with each button press. Or could set drink.Quatity then int to string set.
+        // Future: Set Cart.Drink Quantity Value to label1Value with each button press.
         
     label1Value = label1Value + 1
         label1.text = "\(label1Value)"
