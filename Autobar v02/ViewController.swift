@@ -14,10 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var label1: UILabel!
-    
-  
-    
-    @IBOutlet weak var buttonScroll: UIScrollView!
+
 
     
     
