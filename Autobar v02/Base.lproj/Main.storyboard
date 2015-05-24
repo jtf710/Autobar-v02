@@ -64,6 +64,12 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="myLabel" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzP-H4-ZEZ">
+                                <rect key="frame" x="16" y="167" width="125" height="149"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="-120" minY="120" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Item Count 0" image="dangerousman.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -92,5 +98,6 @@
     </scenes>
     <resources>
         <image name="autoBG-1440.jpg" width="1024" height="768"/>
+        <image name="dangerousman.png" width="110" height="114"/>
     </resources>
 </document>
